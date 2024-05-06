@@ -1,0 +1,51 @@
+@media (max-width: 800px){
+    .apresentacao{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .apresentacao__conteudo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    .img-principal {
+        border-radius: 10%;
+        box-shadow: 5px 5px 25px #22D4FD;
+        width: 200px;
+    }
+}
+
+@media (max-width: 600px){
+    .cabecalho a {
+        font-size: 20px;
+    }
+    .apresentacao__projetos img{
+        width: 150px;
+        height: 120px;
+    }
+    .apresentacao__links{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .apresentacao__conteudo__textos{
+        padding: 20px;
+    }
+    .apresentacao__links__link {
+        width: 100px;
+        padding: 10px 0;
+    }
+
+}
+
+@media (max-width: 550px){
+    .gap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+    }
+}

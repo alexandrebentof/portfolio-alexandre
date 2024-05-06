@@ -1,0 +1,130 @@
+    @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: black;
+        color: #F6F6F6;
+    }
+
+    body::before {
+        content: "";
+        background-image: url('./assets/Código\ 1.png');
+
+        background-size: cover;
+        background-position: center;
+
+
+        opacity: 0.3;
+
+
+        position: absolute;
+        width: 100%;
+        height: 120%;
+        z-index: -1;
+    }
+
+    .botao {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo-destaque {
+        color: #22D4FD;
+
+    }
+
+    .apresentacao {
+        padding: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100vh;
+    
+    }
+
+    .apresentacao__conteudo {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 24px;
+        font-family: 'krona One', sans-serif;
+
+    }
+
+    .apresentacao__conteudo__texto {
+        font-size: 16px;
+        font-family: "Montserrat", 'sans-serif';
+
+    }
+
+    .apresentacao__links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .apresentacao_links_subtitulo {
+        font-family: 'krone one', 'sans-serif';
+        font-weight: 400px;
+        font-size: 18px;
+    }
+
+    .apresentacao__links__link {
+        background-color: #22D4FD;
+        width: 150px;
+        text-align: center;
+        border-radius: 16px;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 21.5px 0;
+        text-decoration: none;
+        color: #F6F6F6;
+        font-family: "Montserrat", 'sans-serif';
+    }
+
+    .rodape {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .img-principal {
+        border-radius: 10%;
+        box-shadow: 5px 5px 25px #22D4FD;
+        width: 400px;
+    }
+
+    .apresentacao__conteudo__textos{
+        padding: 40px;
+    }
+
+    /* /////////////////////////////cabecalho/////////////////////// */
+    .cabecalho {
+        display: flex;
+        justify-content: center;
+        padding: 5%;
+        gap: 10px;
+    }
+
+    .cabecalho a {
+        text-decoration: none;
+        font-size: 30px;
+        text-align: center;
+        color: #22D4FD;
+    }
